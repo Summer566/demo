@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello World</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+ 
+    html,
+    body {
+      overflow-x: hidden; /* Prevent scroll on narrow devices */
+    }
+    body {
+      padding-top: 70px;
+    }
+    footer {
+      padding: 30px 0;
+    }
+    @media screen and (max-width: 767px) {
+      .row-offcanvas {
+        position: relative;
+        -webkit-transition: all .25s ease-out;
+             -o-transition: all .25s ease-out;
+                transition: all .25s ease-out;
+      }
+
+      .row-offcanvas-right {
+        right: 0;
+      }
+
+      .row-offcanvas-left {
+        left: 0;
+      }
+
+      .row-offcanvas-right
+      .sidebar-offcanvas {
+        right: -50%; /* 6 columns */
+      }
+
+      .row-offcanvas-left
+      .sidebar-offcanvas {
+        left: -50%; /* 6 columns */
+      }
+
+      .row-offcanvas-right.active {
+        right: 50%; /* 6 columns */
+      }
+
+      .row-offcanvas-left.active {
+        left: 50%; /* 6 columns */
+      }
+
+      .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+        width: 50%; /* 6 columns */
+      }
+    }     
+    </style>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse ">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle nav</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>    
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+        </div> <!--  navbar-collapse -->
+      </div>  <!--container --> 
+     </nav>
+
+     <div class="container"> 
+       <div class="row row-offcanvas row-offcanvas-right">
+          <div class="col-xs-12 col-md-9">
+            <p class="pull-right visible-xs">
+              <button class="btn-xs btn btn-primary" data-toggle="offcanvas">toggle nar</button>
+           </p>
+               <div class="jumbotron">
+                  <h1>Hello, world!</h1>
+                  <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>  
+                </div> 
+                <div class="col-sm-6 col-md-4">
+                  <h3>Heading</h3>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  <p><a href="#" class="btn btn-default" role="button">View details </a></p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <h3>Heading</h3>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  <p><a href="#" class="btn btn-default" role="button">View details </a></p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <h3>Heading</h3>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  <p><a href="#" class="btn btn-default" role="button">View details </a></p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <h3>Heading</h3>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  <p><a href="#" class="btn btn-default" role="button">View details </a></p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <h3>Heading</h3>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  <p><a href="#" class="btn btn-default" role="button">View details </a></p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <h3>Heading</h3>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  <p><a href="#" class="btn btn-default" role="button">View details </a></p>
+                </div>
+                <div>
+                   <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Messages1</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Messages2</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages3</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Messages4</a></li>
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.Think of yourself as the carpenter. Think about your house. Each day you hammer a nail, place a board, or erect a wall. Build wisely. It is the only life you will ever build. Even if you live it for only one day more, that day deserves to be lived graciously and withdignity. The plaque on the wall says, "Life is a do-it-yourself project."</div>
+                    <div role="tabpanel" class="tab-pane" id="profile">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.So it is with us. We build our lives in a distracted way, reacting rather than acting, willing to put up less than the best. At important points we do not give the job our best effort. Then with a shock we look at the situation we have created and find that we are now living in the house we have built. If we had realized, we would have done it differently. </div>
+                    <div role="tabpanel" class="tab-pane" id="messages">Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.The contractor was sorry to see his good worker go and asked if he could build just one more house as a personal favor. The carpenter said yes, but in time it was easy to see that his heart was not in his work. He resorted to shoddy workmanship and usedinferior materials. It was an unfortunate way to end his career.</div>
+                    <div role="tabpanel" class="tab-pane" id="settings">Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.An elderly carpenter was ready to retire. He told his employer (contractor) of his plans to leave the house building business and live a more leisurely life with his wife enjoying his extended family. He would miss the paycheck, but he needed to retire. They could get by.</div>
+                   </div>
+                  </div>
+               </div>
+          <div class="col-xs-6 col-md-3 sidebar-offcanvas" id="sidebar">
+            <div class="list-group" >
+              <a href="#" class="list-group-item active">
+               Link
+              </a>
+              <a href="#" class="list-group-item"> Link</a>
+              <a href="#" class="list-group-item"> Link</a>
+              <a href="#" class="list-group-item"> Link</a>
+              <a href="#" class="list-group-item"> Link</a>
+              <a href="#" class="list-group-item"> Link</a>
+              <a href="#" class="list-group-item"> Link</a>
+              <a href="#" class="list-group-item"> Link</a>
+              <a href="#" class="list-group-item"> Link</a>
+              <a href="#" class="list-group-item"> Link</a>
+            </div>
+          </div>
+        </div> 
+        <hr class="divider">
+    <footer>
+       <p>© 2017</p>
+    </footer>
+  </div>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('[data-toggle="offcanvas"]').click(function () {
+       $('.row-offcanvas').toggleClass('active')
+    });
+  });
+  </script>
+  </body>
+</html>
